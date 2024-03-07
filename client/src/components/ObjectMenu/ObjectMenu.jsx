@@ -1,8 +1,16 @@
 import "./ObjectMenu.scss"
-function ObjectMenu() {
+
+function ObjectMenu({objects}) {
+  if(!objects.length){
+    return ;
+  }
+  console.log(objects);
   return (
     <section className="object-menu">
-      <img className="object-menu__item" alt="" src=""></img>
+      {objects.map((object)=>{
+        return <img className="object-menu__item" alt={object.name} src={object.image}></img>
+      })}
+      
     </section>
   );
 }
