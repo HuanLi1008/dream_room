@@ -15,6 +15,7 @@
     max-width: 900px; /* Optionally limit the maximum width */
     height: 900px; /* Set a specific height */
     margin: auto; /* Center the menu horizontally */
+    z-index: 15;
   }
   
   .ui-menu section {
