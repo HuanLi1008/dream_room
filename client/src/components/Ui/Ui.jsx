@@ -3,8 +3,8 @@ import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import ObjectMenu from "../ObjectMenu/ObjectMenu";
 import "./Ui.scss"
 import axios from 'axios';
-import { useEffect, useState } from "react";
-function Ui() {
+import { useState } from "react";
+function Ui({userChoice, setUserChoice}) {
   const [objects, setObjects] = useState([]);
   const handlerMenuClick = (name) =>{
     const api_url = 'http://localhost:8080/';
@@ -24,7 +24,7 @@ function Ui() {
         <section className="ui-container">
             <section className="ui-menu">
           <CategoryMenu handlerMenuClick={handlerMenuClick}/>
-          <ObjectMenu objects={objects}/>
+          <ObjectMenu objects={objects} setUserChoice={setUserChoice} userChoice={userChoice}/>
           <OptionsMenu />
         </section> 
         </section>
