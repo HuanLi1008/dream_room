@@ -1,5 +1,5 @@
 function CategoryMenu() {
-
+//Menu with object buttons
     return (
         <ul className="ui-menu__categories">
             <li className="ui-menu__categories-wall"></li>
