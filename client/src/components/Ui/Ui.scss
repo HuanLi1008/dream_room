@@ -6,6 +6,7 @@
   }
   
   .ui-menu {
+    position: relative;
     background-image: url("../../assets/UI/UI.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,4 +14,11 @@
     max-width: 900px; /* Optionally limit the maximum width */
     height: 900px; /* Set a specific height */
     margin: auto; /* Center the menu horizontally */
+  }
+  
+  .ui-menu section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }

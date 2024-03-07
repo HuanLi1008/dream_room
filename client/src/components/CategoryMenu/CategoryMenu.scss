@@ -1,3 +1,4 @@
+
 .ui-menu__categories {
     position: absolute;
     top: 0;
@@ -15,34 +16,42 @@
   .ui-menu__categories li {
     position: absolute;
     cursor: pointer;
+    list-style-type: none;
+    width: 10rem;
+    
+  }
+
+  .ui-menu__categories li img {
+    max-width: 100%; /* Ensure images resize to fit their containers */
   }
   
   .ui-menu__categories-wall {
-    top: 10%;
-    left: 20%;
+    top: 16%;
+    left: 80%;
+    width: 3rem;
   }
   
   .ui-menu__categories-floor {
-    top: 30%;
-    left: 50%;
+    top: 26%;
+    left: 80%;
   }
   
   .ui-menu__categories-window {
-    top: 50%;
+    top: 36%;
     left: 80%;
   }
   
   .ui-menu__categories-bed {
-    top: 70%;
-    left: 20%;
+    top: 45.5%;
+    left: 80%;
   }
   
   .ui-menu__categories-rug {
-    top: 90%;
-    left: 50%;
+    top: 55%;
+    left: 80%;
   }
   
   .ui-menu__categories-more {
-    top: 10%;
+    top: 64%;
     left: 80%;
   }

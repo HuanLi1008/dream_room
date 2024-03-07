@@ -4,6 +4,7 @@ import window_button from '../../assets/UI/window-button.png';
 import bed_button from '../../assets/UI/bed-button.png';
 import rug_button from '../../assets/UI/rug-button.png';
 import more_button from '../../assets/UI/more-button.png';
+import "./CategoryMenu.scss";
 function CategoryMenu({handlerMenuClick}) {
 //Menu with object buttons
 
