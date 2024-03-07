@@ -4,14 +4,99 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 10rem;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  .scene img {
-    max-width: 100%; /* Ensure images scale proportionally */
-    height: auto; /* Ensure images maintain aspect ratio */
-    width: 500px;
-    z-index: 3;
+//   .scene img {
+//     // position: absolute; /* Position the default image absolutely */
+//     // top: 100%; /* Center vertically within the UI container */
+//     // left: 47%; /* Center horizontally within the UI container */
+//     // transform: translate(-50%, -50%); /* Center the image precisely */
+//     // width: 60vw; /* Set width relative to the viewport width */
+//     // height: 60vh; /* Set height relative to the viewport height */
+//     // background-size: contain;
+//     // background-repeat: no-repeat;
+//     // z-index: -1; /* Set a lower z-index to position behind other elements */
+//   }
+
+  .scene__wall {
+    position: absolute; /* Position the default image absolutely */
+    top: 47.5%; /* Center vertically within the UI container */
+    left: 44%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 54.5vw; /* Set width relative to the viewport width */
+    height: 54.5vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
   }
 
+  .scene__floor {
+    position: absolute; /* Position the default image absolutely */
+    top: 50%; /* Center vertically within the UI container */
+    left: 47%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 60vw; /* Set width relative to the viewport width */
+    height: 60vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
+  }
+
+  .scene__bed {
+    position: absolute; /* Position the default image absolutely */
+    top: 50%; /* Center vertically within the UI container */
+    left: 47%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 60vw; /* Set width relative to the viewport width */
+    height: 60vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
+  }
+  .scene__window {
+    position: absolute; /* Position the default image absolutely */
+    top: 50%; /* Center vertically within the UI container */
+    left: 47%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 60vw; /* Set width relative to the viewport width */
+    height: 60vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
+  }
+  .scene__rug {
+    position: absolute; /* Position the default image absolutely */
+    top: 50%; /* Center vertically within the UI container */
+    left: 47%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 60vw; /* Set width relative to the viewport width */
+    height: 60vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
+  }
+
+  .scene__floor {
+    position: absolute; /* Position the default image absolutely */
+    top: 50%; /* Center vertically within the UI container */
+    left: 47%;
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    width: 60vw; /* Set width relative to the viewport width */
+    height: 60vh; /* Set height relative to the viewport height */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4; /* Set a lower z-index to position behind other elements */
+
+  }

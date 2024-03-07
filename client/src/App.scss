@@ -8,30 +8,35 @@
 .ui-default-image {
     background-image: url("./assets/placeholder1.JPG");
     position: absolute; /* Position the default image absolutely */
-    top: 50%; /* Center vertically within the UI container */
+    top: 48%; /* Center vertically within the UI container */
     left: 47%; /* Center horizontally within the UI container */
     transform: translate(-50%, -50%); /* Center the image precisely */
     width: 60vw; /* Set width relative to the viewport width */
     height: 60vh; /* Set height relative to the viewport height */
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: -1; /* Set a lower z-index to position behind other elements */
+    z-index: -4; /* Set a lower z-index to position behind other elements */
+    // display: none;
 }
 
 .ui {
     position: relative; /* Set position to relative */
-    z-index: 1; /* Set a higher z-index to position above the default image */
+    z-index: 15; /* Set a higher z-index to position above the default image */
 }
 
 .ui-default-image__empty {
     background-image: url("./assets/empty.png");
     position: absolute; /* Position the default image absolutely */
-    top: 50%; /* Center vertically within the UI container */
-    left: 47%; /* Center horizontally within the UI container */
+    top: 46.5%; /* Center vertically within the UI container */
+    left: 47.4%; /* Center horizontally within the UI container */
     transform: translate(-50%, -50%); /* Center the image precisely */
     width: 60vw; /* Set width relative to the viewport width */
     height: 60vh; /* Set height relative to the viewport height */
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1; /* Set a lower z-index to position behind other elements */
+    // display: none;
+    --none {
+        display: none;
+    }
 }
