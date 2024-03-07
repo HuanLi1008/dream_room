@@ -1,0 +1,74 @@
+[
+  {
+    "name": "wall_blue",
+    "image": "http://localhost:8080/images/wall/wall_blue.png",
+    "id": 1,
+    "category": "wall"
+  },
+  {
+    "name": "wall_pink",
+    "image": "http://localhost:8080/images/wall/wall_pink.png",
+    "id": 2,
+    "category": "wall"
+  },
+  {
+    "name": "floor_blue",
+    "image": "http://localhost:8080/images/floor/floor_blue.png",
+    "id": 3,
+    "category": "floor"
+  },
+  {
+    "name": "floor_pink",
+    "image": "http://localhost:8080/images/floor/floor_pink.png",
+    "id": 4,
+    "category": "floor"
+  },
+  {
+    "name": "bed_blue",
+    "image": "http://localhost:8080/images/bed/bed_blue.png",
+    "id": 5,
+    "category": "bed"
+  },
+  {
+    "name": "bed_pink",
+    "image": "http://localhost:8080/images/bed/bed_pink.png",
+    "id": 6,
+    "category": "bed"
+  },
+  {
+    "name": "window_blue",
+    "image": "http://localhost:8080/images/window/window_blue.png",
+    "id": 7,
+    "category": "window"
+  },
+  {
+    "name": "window_pink",
+    "image": "http://localhost:8080/images/window/window_pink.png",
+    "id": 8,
+    "category": "window"
+  },
+  {
+    "name": "rug_blue",
+    "image": "http://localhost:8080/images/rug/rug_blue.png",
+    "id": 9,
+    "category": "rug"
+  },
+  {
+    "name": "rug_pink",
+    "image": "http://localhost:8080/images/rug/rug_pink.png",
+    "id": 10,
+    "category": "rug"
+  },
+  {
+    "name": "more_blue",
+    "image": "http://localhost:8080/images/more/more_blue.png",
+    "id": 11,
+    "category": "more"
+  },
+  {
+    "name": "more_pink",
+    "image": "http://localhost:8080/images/more/more_pink.png",
+    "id": 12,
+    "category": "more"
+  }
+]
