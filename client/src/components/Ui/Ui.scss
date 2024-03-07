@@ -1,9 +1,10 @@
 .ui-container {
+    position: relative; /* Set position to relative for the positioning context */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; /* Center vertically within the viewport */
-  }
+}
   
   .ui-menu {
     position: relative;

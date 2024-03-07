@@ -5,11 +5,14 @@ import Scene from "./components/Scene/Scene";
 function App() {
   return (
     <section className="game-container">
+       <Scene />
       <section className="ui">
         <Ui />
+        
         <div className="ui-default-image"></div>
+       
       </section>
-      <Scene />
+      
     </section>
   );
 }
