@@ -10,3 +10,5 @@ function Scene() {
     </section>
   );
 }
+
+export default Scene;
