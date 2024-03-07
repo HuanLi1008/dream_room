@@ -1,5 +1,6 @@
 import "./App.css";
-
+import Ui from "./components/Ui/Ui";
+import Scene from "./components/Scene/Scene";
 function App() {
   return (
     <section className="game-container">
