@@ -1,14 +1,18 @@
 import "./ObjectMenu.scss"
 
-function ObjectMenu({objects}) {
+function ObjectMenu({objects, setUserChoice, userChoice}) {
   if(!objects.length){
     return ;
   }
-  console.log(objects);
+  const handleChoice = (object) =>{
+    const newchoice = userChoice.filter((item) => item.category !== object.category).push(object);
+    setUserChoice(newchoice);
+  }
+
   return (
     <section className="object-menu">
       {objects.map((object)=>{
-        return <img className="object-menu__item" alt={object.name} src={object.image}></img>
+        return <img className="object-menu__item" alt={object.name} src={object.image} onClick={() =>{handleChoice(object)}}></img>
       })}
       
     </section>
