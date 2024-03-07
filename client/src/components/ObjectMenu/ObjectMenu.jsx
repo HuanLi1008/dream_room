@@ -1,3 +1,4 @@
+import "./CategoryMenu.scss"
 function ObjectMenu() {
   return (
     <section className="object-menu">

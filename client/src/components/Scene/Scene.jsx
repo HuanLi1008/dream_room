@@ -1,3 +1,4 @@
+import "./Scene.scss";
 function Scene() {
   return (
     <section className="scene">

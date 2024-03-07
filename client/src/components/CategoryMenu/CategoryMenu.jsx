@@ -1,3 +1,4 @@
+import "./CategoryMenu.scss"
 function CategoryMenu() {
 //Menu with object buttons
     return (

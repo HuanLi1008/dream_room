@@ -1,3 +1,4 @@
+import "./OptionsMenu.scss"
 function OptionsMenu() {
 
     return (

@@ -1,0 +1,16 @@
+.ui-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically within the viewport */
+  }
+  
+  .ui-menu {
+    background-image: url("../../assets/UI/UI.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%; /* Adjust this percentage according to your preference */
+    max-width: 900px; /* Optionally limit the maximum width */
+    height: 900px; /* Set a specific height */
+    margin: auto; /* Center the menu horizontally */
+  }

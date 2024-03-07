@@ -1,0 +1,48 @@
+.ui-menu__categories {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ui-menu__categories li {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .ui-menu__categories-wall {
+    top: 10%;
+    left: 20%;
+  }
+  
+  .ui-menu__categories-floor {
+    top: 30%;
+    left: 50%;
+  }
+  
+  .ui-menu__categories-window {
+    top: 50%;
+    left: 80%;
+  }
+  
+  .ui-menu__categories-bed {
+    top: 70%;
+    left: 20%;
+  }
+  
+  .ui-menu__categories-rug {
+    top: 90%;
+    left: 50%;
+  }
+  
+  .ui-menu__categories-more {
+    top: 10%;
+    left: 80%;
+  }
