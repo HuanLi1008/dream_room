@@ -1,17 +1,17 @@
 import OptionsMenu from "../OptionsMenu/OptionsMenu";
 import CategoryMenu from "../CategoryMenu/CategoryMenu";
-import "../Ui/Ui.scss";
-
+import ObjectMenu from "../ObjectMenu/ObjectMenu";
 function Ui() {
-  return (
-    <>
-      <section className="ui-container">
-        <section className="ui-menu"></section>
-      </section>
-      <CategoryMenu />
-      <OptionsMenu />
-    </>
-  );
+  const handlerMenuClick = (nam) =>{
+
+  }
+    return (
+        <section className="ui-menu">
+          <CategoryMenu handlerMenuClick={handlerMenuClick}/>
+          <ObjectMenu />
+          <OptionsMenu />
+        </section>
+    )
 }
 
 export default Ui;
