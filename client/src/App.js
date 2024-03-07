@@ -8,13 +8,13 @@ function App() {
 
   return (
     <section className="game-container">
-       <Scene />
+       <Scene userChoice={userChoice}/>
       <section className="ui">
         <Ui userChoice={userChoice} setUserChoice={setUserChoice}/>
         <div className="ui-default-image"></div>
        
       </section>
-      <Scene userChoice={userChoice}/>
+      
     </section>
   );
 }

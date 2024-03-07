@@ -7,6 +7,7 @@ import { useState } from "react";
 function Ui({userChoice, setUserChoice}) {
   const [objects, setObjects] = useState([]);
   const handlerMenuClick = (name) =>{
+    console.log("I am running");
     const api_url = 'http://localhost:8080/';
     
     const fetchdata = async()=>{
