@@ -5,7 +5,7 @@ import reset_button from "../../assets/UI/reset-button.png";
 import download_button from "../../assets/UI/download-button.png";
 import "./OptionsMenu.scss"
 function OptionsMenu() {
-  const [start, setStart] = useState(true);
+  const [start, setStart] = useState(false);
   const toggleButton = ()=>{
     setStart(!start);
   }

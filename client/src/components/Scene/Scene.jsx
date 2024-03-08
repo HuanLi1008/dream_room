@@ -3,7 +3,7 @@ function Scene({ userChoice }) {
   return (
     <section className="scene">
       <div className="ui-default-image ui-default-image--none"></div>
-      <div className="ui-default-image__empty ui-default-image__empty--none"></div>
+      {/* <div className="ui-default-image__empty ui-default-image__empty--none"></div> */}
       {userChoice[0] && (
         <img className="scene__wall" src={userChoice[0].image} alt="wall"></img>
       )}

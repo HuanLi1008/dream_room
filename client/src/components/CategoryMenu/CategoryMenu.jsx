@@ -19,6 +19,7 @@ function CategoryMenu({handlerMenuClick}) {
     return (
         <ul className="ui-menu__categories">
             {categories.map((category) =>{
+                // () => {handlerMenuClick(category.name)}
                 return <li className={`ui-menu__categories-${category.name}`} onClick={() => {handlerMenuClick(category.name)}}>
                     <img src={category.image} alt={`${category.name} button`}></img>
                 </li>

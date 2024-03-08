@@ -13,12 +13,12 @@
     padding: 0;
   }
   
-  .ui-menu__categories li {
+  .ui-menu__categories > li {
     position: absolute;
     cursor: pointer;
     list-style-type: none;
     width: 10rem;
-    
+    z-index: 100;
   }
 
   .ui-menu__categories li img {

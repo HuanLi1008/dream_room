@@ -10,9 +10,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    
   }
   
-  .ui-menu__options img {
+  .ui-menu__options > img {
     position: absolute;
     cursor: pointer;
     max-width: 100%; /* Ensure images resize to fit their containers */

@@ -4,20 +4,21 @@ import Scene from "./components/Scene/Scene";
 import { useState } from "react";
 
 function App() {
-  const [userChoice, setUserChoice] = useState([{
-    "name": "window_blue",
-    "image": "http://localhost:8080/images/window/window_blue.png",
-    "id": 7,
-    "category": "window"
-  },]);
+  const [userChoice, setUserChoice] = useState([]);
 
   return (
-    <section className="game-container">
-      <Scene userChoice={userChoice} />
+    // <>
+    //    <Ui userChoice={userChoice} setUserChoice={setUserChoice} />
+    //    <Scene userChoice={userChoice} />
+    // </>
+    //
+    <section className="game-container" onClick={() => console.log("Hello")}>
+      
       <section className="ui">
         <Ui userChoice={userChoice} setUserChoice={setUserChoice} />
         
       </section>
+      <Scene userChoice={userChoice} />
     </section>
   );
 }

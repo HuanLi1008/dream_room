@@ -3,7 +3,7 @@ import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import ObjectMenu from "../ObjectMenu/ObjectMenu";
 import "./Ui.scss"
 import axios from 'axios';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function Ui({userChoice, setUserChoice}) {
   const [objects, setObjects] = useState([]);
   const handlerMenuClick = (name) =>{
@@ -21,9 +21,12 @@ function Ui({userChoice, setUserChoice}) {
     }
     fetchdata();
   }
+  // useEffect(()=>{
+  //   handlerMenuClick('wall');
+  // },[])
     return (
-        <section className="ui-container">
-            <section className="ui-menu">
+        <section className="ui-container" >
+            <section className="ui-menu" >
           <CategoryMenu handlerMenuClick={handlerMenuClick}/>
           <ObjectMenu objects={objects} setUserChoice={setUserChoice} userChoice={userChoice}/>
           <OptionsMenu />
